@@ -1,0 +1,23 @@
+{
+  "name": "jhoel_ramos_laboratorio_7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mongo:start": "docker run --rm -p=27017:27017 --env-file=./.env --name=mongodb -d centos/mongodb-32-centos7",
+    "mongo:stop": "docker stop mongodb",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.18",
+    "nodemon": "^2.0.4",
+    "bcryptjs": "^2.4.3"
+  }
+}

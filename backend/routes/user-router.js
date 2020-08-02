@@ -22,7 +22,6 @@ userRouter.post('/register', async (req, res) => {
     });
 });
 
-
 userRouter.post('/login', async (req, res) => {
 
     const {
@@ -44,8 +43,12 @@ userRouter.post('/login', async (req, res) => {
             message: "Contraseña incorrecta !"
     });
 
-    res.json({
-        user
+    res.status(200).json({
+        'payload': {
+            'usuario': user.usuario,
+            'email': user.email,
+            'preferencias': user.preferencias
+        }
     });});
 
 module.exports = userRouter

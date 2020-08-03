@@ -5,23 +5,19 @@ const app = express();
 const userRoutes = require('./routes/user-router');
 const productoRoutes = require('./routes/producto-route');
 const carritoRouter = require('./routes/carrito-routes');
+const ventasRouter = require('./routes/ventas-routes');
+
 const connectDb = require('./dbConfig');
 const PORT = 3000;
 
-// Se indica el directorio donde se almacenarán las plantillas 
-//app.set('views', './views');
-
-// Se indica el motor del plantillas a utilizar
-//app.set('view engine', 'pug');
-
 app.use(bodyParser.json());
-//app.use(bodyParser.urlencoded());
 
 app.get('/', (req, res) => res.send('App is working'))
  
 app.use('/api', userRoutes)
 app.use('/api', productoRoutes)
 app.use('/api', carritoRouter)
+app.use('/api', ventasRouter)
 
 connectDb().then(() => {
     app.listen(PORT, () => {

@@ -2,7 +2,8 @@ require('dotenv').config()
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
-const routes = require('./routes/user-router');
+const userRoutes = require('./routes/user-router');
+const productoRoutes = require('./routes/producto-route');
 
 const connectDb = require('./dbConfig');
 const PORT = 3000;
@@ -18,7 +19,8 @@ app.use(bodyParser.json());
 
 app.get('/', (req, res) => res.send('App is working'))
  
-app.use('/api', routes)
+app.use('/api', userRoutes)
+app.use('/api', productoRoutes)
 
 connectDb().then(() => {
     app.listen(PORT, () => {

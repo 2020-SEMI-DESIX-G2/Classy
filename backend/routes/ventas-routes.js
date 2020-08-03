@@ -37,4 +37,20 @@ ventasRouter.get('/ventas/:id', async (req, res) => {
     }
 });
 
+ventasRouter.delete('/ventas/:id', async (req, res) => {
+
+    try {
+
+        await Ventas.findOneAndDelete(req.params.id);
+        res.status(200).json({
+            "id": req.params.id
+        });   
+    } catch (error) {
+        console.log(error);
+        res.status(500).json({
+            "id": req.params.id
+        });   
+    }
+});
+
 module.exports = ventasRouter

@@ -45,6 +45,7 @@ userRouter.post('/login', async (req, res) => {
 
     res.status(200).json({
         'payload': {
+            'id': user['_id'],
             'usuario': user.usuario,
             'email': user.email,
             'preferencias': user.preferencias

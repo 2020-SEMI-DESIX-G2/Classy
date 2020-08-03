@@ -18,7 +18,7 @@ productoRouter.post('/producto', async (req, res) => {
 
 productoRouter.get('/producto', async (req, res) => {
 
-    const productos = await Producto.find().select('titulo precio descripcion, dueno');
+    const productos = await Producto.find().select('titulo precio descripcion dueno');
 
     res.status(200).json({
         'payload': {

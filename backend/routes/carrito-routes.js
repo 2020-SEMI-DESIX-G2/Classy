@@ -46,13 +46,14 @@ carritoRouter.delete('/carrito/:id', async (req, res) => {
 
         await Carrito.findOneAndDelete(req.params.id);
 
+        res.status(200).json({
+            "id": req.params.id
+        });        
+
     } catch (error) {
         console.log(error);
-        res.status(200).json({
-            'payload': {
-                carritos: [],
-                cantidad: 0
-            }
+        res.status(500).json({
+            "id": req.params.id
         });
     }
 });

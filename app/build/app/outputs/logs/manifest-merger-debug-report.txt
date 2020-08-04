@@ -6,7 +6,9 @@ INJECTED from /Users/invitado/Documents/proyects/univer/desa9/classy/repo/app/an
 INJECTED from /Users/invitado/Documents/proyects/univer/desa9/classy/repo/app/android/app/src/main/AndroidManifest.xml:1:1-30:12
 MERGED from /Users/invitado/Documents/proyects/univer/desa9/classy/repo/app/android/app/src/main/AndroidManifest.xml:1:1-30:12
 MERGED from [:shared_preferences] /Users/invitado/Documents/proyects/univer/desa9/classy/repo/app/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:webview_flutter] /Users/invitado/Documents/proyects/univer/desa9/classy/repo/app/build/webview_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.fragment:fragment:1.0.0] /Users/invitado/.gradle/caches/transforms-2/files-2.1/b8b68c04ee72209a3beca37e17f7088d/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.webkit:webkit:1.0.0] /Users/invitado/.gradle/caches/transforms-2/files-2.1/e6b1c804849fbf3a96135de6255bcce0/webkit-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/invitado/.gradle/caches/transforms-2/files-2.1/f046f38cf99e9cbe4891b184ce64db19/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/invitado/.gradle/caches/transforms-2/files-2.1/0f0610cdcf96e6cfa9529b6a3246e3f6/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /Users/invitado/.gradle/caches/transforms-2/files-2.1/e1bbce6b0d79e8479b70e7bd729bb743/loader-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -96,8 +98,12 @@ INJECTED from /Users/invitado/Documents/proyects/univer/desa9/classy/repo/app/an
 INJECTED from /Users/invitado/Documents/proyects/univer/desa9/classy/repo/app/android/app/src/main/AndroidManifest.xml
 MERGED from [:shared_preferences] /Users/invitado/Documents/proyects/univer/desa9/classy/repo/app/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:shared_preferences] /Users/invitado/Documents/proyects/univer/desa9/classy/repo/app/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:webview_flutter] /Users/invitado/Documents/proyects/univer/desa9/classy/repo/app/build/webview_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:webview_flutter] /Users/invitado/Documents/proyects/univer/desa9/classy/repo/app/build/webview_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] /Users/invitado/.gradle/caches/transforms-2/files-2.1/b8b68c04ee72209a3beca37e17f7088d/fragment-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] /Users/invitado/.gradle/caches/transforms-2/files-2.1/b8b68c04ee72209a3beca37e17f7088d/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.0.0] /Users/invitado/.gradle/caches/transforms-2/files-2.1/e6b1c804849fbf3a96135de6255bcce0/webkit-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.0.0] /Users/invitado/.gradle/caches/transforms-2/files-2.1/e6b1c804849fbf3a96135de6255bcce0/webkit-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/invitado/.gradle/caches/transforms-2/files-2.1/f046f38cf99e9cbe4891b184ce64db19/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/invitado/.gradle/caches/transforms-2/files-2.1/f046f38cf99e9cbe4891b184ce64db19/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/invitado/.gradle/caches/transforms-2/files-2.1/0f0610cdcf96e6cfa9529b6a3246e3f6/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44

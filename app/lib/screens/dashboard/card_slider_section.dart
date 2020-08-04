@@ -12,7 +12,6 @@ List<Size> cardsSize = List(3);
 
 class CardSliderSection extends StatefulWidget {
 
-  
   final DashboardBloc bloc;
 
   CardSliderSection(BuildContext context, this.bloc, Key key) : super(key: key) {

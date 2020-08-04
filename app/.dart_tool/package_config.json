@@ -98,6 +98,12 @@
       "languageVersion": "2.4"
     },
     {
+      "name": "http_auth",
+      "rootUri": "file:///Users/invitado/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/http_auth-0.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
       "name": "http_parser",
       "rootUri": "file:///Users/invitado/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/http_parser-3.1.4",
       "packageUri": "lib/",
@@ -284,6 +290,12 @@
       "languageVersion": "2.0"
     },
     {
+      "name": "webview_flutter",
+      "rootUri": "file:///Users/invitado/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/webview_flutter-0.3.22+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    },
+    {
       "name": "xdg_directories",
       "rootUri": "file:///Users/invitado/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/xdg_directories-0.1.0",
       "packageUri": "lib/",
@@ -302,7 +314,7 @@
       "languageVersion": "2.1"
     }
   ],
-  "generated": "2020-08-03T23:12:26.027976Z",
+  "generated": "2020-08-03T23:50:27.751543Z",
   "generator": "pub",
   "generatorVersion": "2.7.0"
 }

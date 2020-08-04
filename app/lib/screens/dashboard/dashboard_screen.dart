@@ -3,6 +3,7 @@ import 'package:classy/bloc/dashboard/dashboard_bloc.dart';
 import 'package:classy/screens/dashboard/card_model.dart';
 import 'package:classy/screens/dashboard/card_slider_section.dart';
 import 'package:classy/screens/sale_car/sale_car.dart';
+import 'package:classy/screens/sale_information/make_payment.dart';
 import 'package:classy/utils/constant.dart';
 import 'package:classy/utils/size_config.dart';
 import 'package:classy/utils/slider_right_page.dart';
@@ -108,7 +109,9 @@ class _DashboardState extends State<DashBoard> {
         children: <Widget>[
           FloatingActionButton(
             mini: true,
-            onPressed: (){},
+            onPressed: (){
+              
+            },
             heroTag: null,            
             backgroundColor: Colors.white,
             child: Icon(Icons.replay, color: Colors.blueAccent),

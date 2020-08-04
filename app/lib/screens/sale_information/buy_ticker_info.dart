@@ -2,6 +2,7 @@
 import 'package:classy/bloc/sale_information/sale_information_bloc.dart';
 import 'package:classy/screens/register/custom_dialog.dart';
 import 'package:classy/screens/sale_information/expandeable_container.dart';
+import 'package:classy/screens/sale_information/make_payment.dart';
 import 'package:classy/screens/sale_information/pay_information.dart';
 import 'package:classy/screens/sale_information/sale_info.dart';
 import 'package:classy/screens/voucher/voucher_screen.dart';
@@ -440,8 +441,10 @@ class BuyTicketInfoState extends State<BuyTicketInfo> {
               child: RaisedButton(
                 padding: EdgeInsets.all(0),
                 onPressed: () async {
+                  
+                  await aa();
                   if (await this.widget.bloc.executePayment(sale)) {
-                    Navigator.push(context, SlideRightRouteUtils(page: VoucherScreen()));
+
                   } else {
                     showDialog(
                       context: context,
@@ -464,6 +467,12 @@ class BuyTicketInfoState extends State<BuyTicketInfo> {
           ),
         ),
       );
+    }
+
+    Future<void> aa() {
+        Navigator.push(context, SlideRightRouteUtils(page: VoucherScreen()));
+        Navigator.push(context, SlideRightRouteUtils(page: makePayment()));
+        
     }
 
   _childButton() {
